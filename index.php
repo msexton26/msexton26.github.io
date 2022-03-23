@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php 
-echo "test";
+echo "php test";
 ?>
 
 
