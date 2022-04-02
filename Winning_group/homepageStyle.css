@@ -1,0 +1,169 @@
+body{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+ 
+  
+}
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #566573 ;
+  font-size: 40px;
+  }
+  
+.top{
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  font-size: 14px;
+}
+.search{
+  margin-top: 0px;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+/*.h1{
+    background-color: #BCDE33;
+
+}*/
+.menu{
+  text-align: right;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+/* Search menu styling */
+* {
+  box-sizing: border-box;
+}
+
+/* Create a column layout with Flexbox */
+.row {
+  display: flex;
+}
+
+/* Left column (menu) */
+.left {
+  flex: 35%;
+  padding: 15px 0;
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  text-align: right;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block
+  
+}
+
+#myMenu li a:hover {
+  background-color: #eee;
+}
+
+div.gallery1 {
+    margin: 40px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 360px;
+  }
+  
+  div.gallery1:hover {
+    border: 5px solid #BCDE33;
+  }
+  
+  div.gallery1 img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
+
+  div.gallery2 {
+    margin: 40px;
+    border: 5px solid #ccc;
+    float: left;
+    width: 360px;
+  }
+  
+  div.gallery2:hover {
+    border: 5px solid #BCDE33;
+  }
+  
+  div.gallery2 img {
+    width: 100%;
+    height: auto;
+  }
+  .desc{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  }
+  .top{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    background-color: #BCDE33;
+  }
+  .how{
+    color: white;
+  }
+  .footer
+  {
+     color: #BCDE33;
+     background-color:#BCDE33;
+     height: 50px;
+  }
+  /* Add a black background color to the top navigation */
+.topnav {
+  background-color: #E3ECC8 ;
+  overflow: hidden;
+  margin-top: 0%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #030303;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+} 
+  

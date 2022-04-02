@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script defer src="BoilEgg.js" type="text/javascript"></script>
+
+  </head>
+<!-- log in form -->
+  <body>
+    <main id="main-holder">
+        <h1 id="login-header">Login</h1>
+        
+        
+        <div id="login-error-msg-holder">
+          <p id="login-error-msg">Invalid username <span id="error-msg-second-line">and/or password</span></p>
+        </div>
+
+        <div>
+          <img src="https://image.shutterstock.com/image-vector/line-drawing-girl-laptop-drinking-260nw-1457751284.jpg">
+        </div>
+
+        <form id="login-form">
+          <input type="text" name="name" id=" username-field" class="login-form-field" placeholder="Username">
+          <input type="password" name="pw" id="password-field" class="login-form-field" placeholder="Password">
+          <input type="button" value="Login" id="login-form-submit" onclick="login(name,pw)">
+        </br>
+          <a href="homePage.html" id="login-form-submit">Home</a>
+          
+        </form>
+
+   <!-- Function of the log in -->
+  <script>
+      var user = document.getElementById("username-field").value;
+      var passwords = document.getElementById("password-field").value;
+    function login(name,pw) {
+      
+          alert ("Welcome! You are now logged in")
+     
+    }
+    login(user,passwords);
+  </script>
+      
+      </main>
+</body>
+</html>

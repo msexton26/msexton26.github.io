@@ -1,0 +1,75 @@
+.body{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin: 20px;
+   
+}
+.top-bar{
+    background-color:#BCDE33
+}
+.Page-heading{
+    text-align: center;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.inside-box{
+    border: 20px
+    }
+.how{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: white;
+}
+.h1{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.h2{
+    border: 20px
+}
+.steps{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.instructions{
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.back{
+    text-align:right;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #E3ECC8 ;
+    overflow: hidden;
+    margin-top: 0%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #030303;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  } 
+  h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #566573 ;
+    font-size: 40px;
+    }
+    

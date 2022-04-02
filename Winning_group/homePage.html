@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+  <meta charset = "UTF-8">
+  <title>Fake wikipedia homepage</title>
+  <link href = "./homepageStyle.css" rel = "stylesheet"></link>
+</head>
+
+<body> 
+    <div class = top>
+      <li><h1>Fake wiki<span class = how>How</span></h1></li>
+  
+      <!-- Add top navigation -->
+      <div class="topnav" id="myTopnav"> 
+        <a href="homePage.html" class="active">Home</a>
+        <a href="logIn.html">Log In</a>
+        <a href="comsec.html">Comment section</a>
+       
+        <i class="fa fa-bars"></i>
+        </a>
+      
+     </div>
+
+    <div class="search" style="background-color:#BCDE33;">
+      <h2 class ="menu">Menu</h2>
+      <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+      <ul id="myMenu">
+        <li><a href="tea.html">Tea</a></li>
+        <li><a href="home.html">Homework</a></li>
+        <li><a href="Create_Website.html">Website</a></li>
+        <li><a href="BoilEgg.html">Egg</a></li>
+        <li><a href="easter.html">Easter egg</a></li>
+        <li><a href="https://www.bbcgoodfood.com/recipes/classic-victoria-sandwich-recipe">Cake</a></li>
+      </ul>
+      </div>
+    </div>
+  </div>
+    <!--Search bar will go here eventually-->
+    <h2>
+        <div class="gallery1">
+            <a target="_blank" href="tea.html">
+                <!-- href is where i will put the link to the next pages-->
+              <img src="tea.webp" alt="Tea" width="600" height="400">
+            </a>
+            <div class="desc">How to make a cup of tea</div>
+          </div>
+          
+          <div class="gallery1">
+            <a target="_blank" href="home.html">
+              <img src="books.jfif" alt="Books" width="600" height="400">
+            </a>
+            <div class="desc">How to get away with not doing your homework</div>
+          </div>
+          
+          <div class="gallery1">
+            <a target="_blank" href="Create_Website.html">
+              <img src="computer.jpg" alt="Computer" width="600" height="400">
+            </a>
+            <div class="desc">How to make a website</div>
+          </div>
+    </h2>
+    <h3>
+        <div class="gallery2">
+            <a target="_blank" href="BoilEgg.html">
+              <img src="egg.jfif" alt="Egg" width="600" height="400">
+            </a>
+            <div class="desc">How to boil an egg</div>
+          </div>
+          
+          <div class="gallery2">
+            <a target="_blank" href="easter.html">
+              <img src="easterEgg.jfif" alt="Easter egg" width="600" height="400">
+            </a>
+            <div class="desc">How to make an easter egg</div>
+          </div>
+          
+          <div class="gallery2">
+            <a target="_blank" href="https://www.bbcgoodfood.com/recipes/classic-victoria-sandwich-recipe">
+              <img src="cake.jfif" alt="Cake" width="600" height="400">
+            </a>
+            <div class="desc">How to bake a cake</div>
+          </div>
+    </h3>
+    
+
+    <!-- Javascript for the search bar -->
+    <script>
+      function myFunction() {
+        var input, filter, ul, li, a, i;
+        input = document.getElementById("mySearch");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("myMenu");
+        li = ul.getElementsByTagName("li");
+        for (i = 0; i < li.length; i++) {
+          a = li[i].getElementsByTagName("a")[0];
+          if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+      </script>
+
+      <div>
+
+      </div>
+      
+</body>>
